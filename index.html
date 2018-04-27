@@ -15,7 +15,7 @@
 	<div class="container">
 		<!-- <div class="field"> -->
 			<form action="php/sendmail.php" method="POST">
-				<input type="text" id="phone" placeholder="+38(050)-111-11-11" name="phone">
+				<input type="text" id="phone" placeholder="+38(050)-111-11-11" name="phone" pattern="[+][0-9]{2}[(][0-9]{3}[)][0-9]{3}[-][0-9]{2}[-][0-9]{2}">
 				<input type="email" placeholder="email" name="email">
 				<input type="submit" value="Заказать сайт" class="btn_order">
 			</form>
@@ -24,13 +24,8 @@
 	</div>
 	<div class="adress">
 		<span>&#9742; +38(050) 111-11-11</span>
-		<span>&#9998; info@inweb.com</span>
-		<span>&copy; 2018 inWeb</span>
+		<span>&#9998; info@artwebik.com</span>
+		<span>&copy; 2018 artWEBik</span>
 	</div>
 </body>
-<script>
-	$(document).ready(function(){
-	  $("#phone").mask("+38(999) 999-99-99");
-	});
-</script>
 </html>
