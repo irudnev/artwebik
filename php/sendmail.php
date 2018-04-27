@@ -19,7 +19,7 @@ $email = trim($_POST['email']);
 //  }
 //Если ошибок нет, отправить email
 if(!isset($hasError)) {
-$emailTo = 'rudnevihor@gmail.com';
+$emailTo = 'rudnev.dn@mail.ru';
 $body = "Новый заказ сайта: $email";
 $name = "name: $email";
 // $body = "Name: $name \n\nEmail: $email \n\nPhone: $phone";
