@@ -114,3 +114,7 @@ a:hover {
 	left: 5%;
 	/*float: left;*/
 }
+
+iframe[name="templates"] {
+	width: 30%;
+}
