@@ -118,18 +118,18 @@ a:hover {
 }
 
 iframe[name="templates"] {
-	width: 50%;
-	margin-bottom: 1em;
+	/*width: 50%;*/
+	margin: 1em auto;
 }
 
 @media (max-width: 1200px) {
 	iframe[name="templates"] {
-		width: 75%;
+		/*width: 75%;*/
 	}
 }
 
 @media (max-width: 800px) {
 	iframe[name="templates"] {
-		width: 100%;
+		/*width: 100%;*/
 	}
 }
