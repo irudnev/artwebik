@@ -26,8 +26,8 @@ h1 {
 
 .adress {
 	/*position: absolute;*/
-	position: fixed;
-	bottom: 0.2em;
+	/*position: fixed;*/
+	/*bottom: 0.2em;*/
 	width: 50%;
 	left: 5%;
 	font-size: 0.7em;
