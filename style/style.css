@@ -119,6 +119,8 @@ a:hover {
 
 iframe[name="templates"] {
 	width: 50%;
+	height: 100%;
+	padding-top: 3em;
 	padding-bottom: 1em;
 }
 
