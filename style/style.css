@@ -132,3 +132,9 @@ iframe[name="templates"] {
 		width: 100%;
 	}
 }
+
+@media (max-height: 500px) {
+	body {
+		background-size: auto;
+	}
+}
