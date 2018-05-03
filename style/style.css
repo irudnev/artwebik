@@ -25,13 +25,11 @@ h1 {
 }
 
 .adress {
-	/*position: absolute;*/
-	/*position: fixed;
-	bottom: 0.2em;*/
-	margin-bottom: 0.2em;
+	position: absolute;
+	/*position: fixed;*/
+	bottom: 0.2em;
 	width: 50%;
-	/*left: 5%;*/
-	margin-left: 5%;
+	left: 5%;
 	font-size: 0.7em;
 	opacity: 0.8;
 }
@@ -121,6 +119,7 @@ a:hover {
 
 iframe[name="templates"] {
 	width: 50%;
+	padding-bottom: 1em;
 }
 
 @media (max-width: 1200px) {
