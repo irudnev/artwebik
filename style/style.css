@@ -119,6 +119,7 @@ a:hover {
 
 iframe[name="templates"] {
 	width: 50%;
+	margin-bottom: 1em;
 }
 
 @media (max-width: 1200px) {
