@@ -133,7 +133,7 @@ iframe[name="templates"] {
 	}
 }
 
-@media (max-height: 500px) {
+@media (max-height: 700px) {
 	body {
 		background-size: auto;
 	}
